@@ -66,7 +66,7 @@ Poly failed to decode any of its types at: "\(codingPathString)"
 
 internal typealias PolyTypeNotFound = PolyDecodeNoTypesMatchedError.IndividualFailure
 
-private func decode<Thing: Decodable>(_ type: Thing.Type, from container: SingleValueDecodingContainer) throws -> Result<Thing, PolyTypeNotFound> {
+internal func decode<Thing: Decodable>(_ type: Thing.Type, from container: SingleValueDecodingContainer) throws -> Result<Thing, PolyTypeNotFound> {
 	let ret: Result<Thing, PolyTypeNotFound>
 	do {
 		ret = try .success(container.decode(Thing.self))
