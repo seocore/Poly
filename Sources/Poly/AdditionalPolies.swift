@@ -1815,7 +1815,7 @@ extension Poly20: Encodable where A: Encodable, B: Encodable, C: Encodable, D: E
             try container.encode(r)
         case .s(let s):
             try container.encode(s)
-        case .s(let t):
+        case .t(let t):
             try container.encode(t)
         }
     }
