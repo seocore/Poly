@@ -641,7 +641,7 @@ extension Poly17: Decodable where A: Decodable, B: Decodable, C: Decodable, D: D
             try decode(P.self, from: container).map { Poly17.p($0) },
             try decode(Q.self, from: container).map { Poly17.q($0) }]
 
-        let maybeVal: Poly16<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q>? = attempts
+        let maybeVal: Poly17<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q>? = attempts
             .lazy
             .compactMap { $0.value }
             .first
@@ -1026,7 +1026,7 @@ extension Poly18: Decodable where A: Decodable, B: Decodable, C: Decodable, D: D
             try decode(Q.self, from: container).map { Poly18.q($0) },
             try decode(R.self, from: container).map { Poly18.r($0) }]
 
-        let maybeVal: Poly16<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R>? = attempts
+        let maybeVal: Poly18<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R>? = attempts
             .lazy
             .compactMap { $0.value }
             .first
@@ -1428,7 +1428,7 @@ extension Poly19: Decodable where A: Decodable, B: Decodable, C: Decodable, D: D
             try decode(R.self, from: container).map { Poly19.r($0) },
             try decode(S.self, from: container).map { Poly19.s($0) }]
 
-        let maybeVal: Poly16<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S>? = attempts
+        let maybeVal: Poly19<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S>? = attempts
             .lazy
             .compactMap { $0.value }
             .first
