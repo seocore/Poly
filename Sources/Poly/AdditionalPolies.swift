@@ -623,23 +623,23 @@ extension Poly17: Decodable where A: Decodable, B: Decodable, C: Decodable, D: D
         let container = try decoder.singleValueContainer()
 
         let attempts = [
-            try decode(A.self, from: container).map { Poly16.a($0) },
-            try decode(B.self, from: container).map { Poly16.b($0) },
-            try decode(C.self, from: container).map { Poly16.c($0) },
-            try decode(D.self, from: container).map { Poly16.d($0) },
-            try decode(E.self, from: container).map { Poly16.e($0) },
-            try decode(F.self, from: container).map { Poly16.f($0) },
-            try decode(G.self, from: container).map { Poly16.g($0) },
-            try decode(H.self, from: container).map { Poly16.h($0) },
-            try decode(I.self, from: container).map { Poly16.i($0) },
-            try decode(J.self, from: container).map { Poly16.j($0) },
-            try decode(K.self, from: container).map { Poly16.k($0) },
-            try decode(L.self, from: container).map { Poly16.l($0) },
-            try decode(M.self, from: container).map { Poly16.m($0) },
-            try decode(N.self, from: container).map { Poly16.n($0) },
-            try decode(O.self, from: container).map { Poly16.o($0) },
-            try decode(P.self, from: container).map { Poly16.p($0) },
-            try decode(Q.self, from: container).map { Poly16.q($0) }]
+            try decode(A.self, from: container).map { Poly17.a($0) },
+            try decode(B.self, from: container).map { Poly17.b($0) },
+            try decode(C.self, from: container).map { Poly17.c($0) },
+            try decode(D.self, from: container).map { Poly17.d($0) },
+            try decode(E.self, from: container).map { Poly17.e($0) },
+            try decode(F.self, from: container).map { Poly17.f($0) },
+            try decode(G.self, from: container).map { Poly17.g($0) },
+            try decode(H.self, from: container).map { Poly17.h($0) },
+            try decode(I.self, from: container).map { Poly17.i($0) },
+            try decode(J.self, from: container).map { Poly17.j($0) },
+            try decode(K.self, from: container).map { Poly17.k($0) },
+            try decode(L.self, from: container).map { Poly17.l($0) },
+            try decode(M.self, from: container).map { Poly17.m($0) },
+            try decode(N.self, from: container).map { Poly17.n($0) },
+            try decode(O.self, from: container).map { Poly17.o($0) },
+            try decode(P.self, from: container).map { Poly17.p($0) },
+            try decode(Q.self, from: container).map { Poly17.q($0) }]
 
         let maybeVal: Poly16<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q>? = attempts
             .lazy
@@ -1007,24 +1007,24 @@ extension Poly18: Decodable where A: Decodable, B: Decodable, C: Decodable, D: D
         let container = try decoder.singleValueContainer()
 
         let attempts = [
-            try decode(A.self, from: container).map { Poly16.a($0) },
-            try decode(B.self, from: container).map { Poly16.b($0) },
-            try decode(C.self, from: container).map { Poly16.c($0) },
-            try decode(D.self, from: container).map { Poly16.d($0) },
-            try decode(E.self, from: container).map { Poly16.e($0) },
-            try decode(F.self, from: container).map { Poly16.f($0) },
-            try decode(G.self, from: container).map { Poly16.g($0) },
-            try decode(H.self, from: container).map { Poly16.h($0) },
-            try decode(I.self, from: container).map { Poly16.i($0) },
-            try decode(J.self, from: container).map { Poly16.j($0) },
-            try decode(K.self, from: container).map { Poly16.k($0) },
-            try decode(L.self, from: container).map { Poly16.l($0) },
-            try decode(M.self, from: container).map { Poly16.m($0) },
-            try decode(N.self, from: container).map { Poly16.n($0) },
-            try decode(O.self, from: container).map { Poly16.o($0) },
-            try decode(P.self, from: container).map { Poly16.p($0) },
-            try decode(Q.self, from: container).map { Poly16.q($0) },
-            try decode(R.self, from: container).map { Poly16.r($0) }]
+            try decode(A.self, from: container).map { Poly18.a($0) },
+            try decode(B.self, from: container).map { Poly18.b($0) },
+            try decode(C.self, from: container).map { Poly18.c($0) },
+            try decode(D.self, from: container).map { Poly18.d($0) },
+            try decode(E.self, from: container).map { Poly18.e($0) },
+            try decode(F.self, from: container).map { Poly18.f($0) },
+            try decode(G.self, from: container).map { Poly18.g($0) },
+            try decode(H.self, from: container).map { Poly18.h($0) },
+            try decode(I.self, from: container).map { Poly18.i($0) },
+            try decode(J.self, from: container).map { Poly18.j($0) },
+            try decode(K.self, from: container).map { Poly18.k($0) },
+            try decode(L.self, from: container).map { Poly18.l($0) },
+            try decode(M.self, from: container).map { Poly18.m($0) },
+            try decode(N.self, from: container).map { Poly18.n($0) },
+            try decode(O.self, from: container).map { Poly18.o($0) },
+            try decode(P.self, from: container).map { Poly18.p($0) },
+            try decode(Q.self, from: container).map { Poly18.q($0) },
+            try decode(R.self, from: container).map { Poly18.r($0) }]
 
         let maybeVal: Poly16<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R>? = attempts
             .lazy
@@ -1408,25 +1408,25 @@ extension Poly19: Decodable where A: Decodable, B: Decodable, C: Decodable, D: D
         let container = try decoder.singleValueContainer()
 
         let attempts = [
-            try decode(A.self, from: container).map { Poly16.a($0) },
-            try decode(B.self, from: container).map { Poly16.b($0) },
-            try decode(C.self, from: container).map { Poly16.c($0) },
-            try decode(D.self, from: container).map { Poly16.d($0) },
-            try decode(E.self, from: container).map { Poly16.e($0) },
-            try decode(F.self, from: container).map { Poly16.f($0) },
-            try decode(G.self, from: container).map { Poly16.g($0) },
-            try decode(H.self, from: container).map { Poly16.h($0) },
-            try decode(I.self, from: container).map { Poly16.i($0) },
-            try decode(J.self, from: container).map { Poly16.j($0) },
-            try decode(K.self, from: container).map { Poly16.k($0) },
-            try decode(L.self, from: container).map { Poly16.l($0) },
-            try decode(M.self, from: container).map { Poly16.m($0) },
-            try decode(N.self, from: container).map { Poly16.n($0) },
-            try decode(O.self, from: container).map { Poly16.o($0) },
-            try decode(P.self, from: container).map { Poly16.p($0) },
-            try decode(Q.self, from: container).map { Poly16.q($0) },
-            try decode(R.self, from: container).map { Poly16.r($0) },
-            try decode(S.self, from: container).map { Poly16.s($0) }]
+            try decode(A.self, from: container).map { Poly19.a($0) },
+            try decode(B.self, from: container).map { Poly19.b($0) },
+            try decode(C.self, from: container).map { Poly19.c($0) },
+            try decode(D.self, from: container).map { Poly19.d($0) },
+            try decode(E.self, from: container).map { Poly19.e($0) },
+            try decode(F.self, from: container).map { Poly19.f($0) },
+            try decode(G.self, from: container).map { Poly19.g($0) },
+            try decode(H.self, from: container).map { Poly19.h($0) },
+            try decode(I.self, from: container).map { Poly19.i($0) },
+            try decode(J.self, from: container).map { Poly19.j($0) },
+            try decode(K.self, from: container).map { Poly19.k($0) },
+            try decode(L.self, from: container).map { Poly19.l($0) },
+            try decode(M.self, from: container).map { Poly19.m($0) },
+            try decode(N.self, from: container).map { Poly19.n($0) },
+            try decode(O.self, from: container).map { Poly19.o($0) },
+            try decode(P.self, from: container).map { Poly19.p($0) },
+            try decode(Q.self, from: container).map { Poly19.q($0) },
+            try decode(R.self, from: container).map { Poly19.r($0) },
+            try decode(S.self, from: container).map { Poly19.s($0) }]
 
         let maybeVal: Poly16<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S>? = attempts
             .lazy
@@ -1826,28 +1826,28 @@ extension Poly20: Decodable where A: Decodable, B: Decodable, C: Decodable, D: D
         let container = try decoder.singleValueContainer()
 
         let attempts = [
-            try decode(A.self, from: container).map { Poly16.a($0) },
-            try decode(B.self, from: container).map { Poly16.b($0) },
-            try decode(C.self, from: container).map { Poly16.c($0) },
-            try decode(D.self, from: container).map { Poly16.d($0) },
-            try decode(E.self, from: container).map { Poly16.e($0) },
-            try decode(F.self, from: container).map { Poly16.f($0) },
-            try decode(G.self, from: container).map { Poly16.g($0) },
-            try decode(H.self, from: container).map { Poly16.h($0) },
-            try decode(I.self, from: container).map { Poly16.i($0) },
-            try decode(J.self, from: container).map { Poly16.j($0) },
-            try decode(K.self, from: container).map { Poly16.k($0) },
-            try decode(L.self, from: container).map { Poly16.l($0) },
-            try decode(M.self, from: container).map { Poly16.m($0) },
-            try decode(N.self, from: container).map { Poly16.n($0) },
-            try decode(O.self, from: container).map { Poly16.o($0) },
-            try decode(P.self, from: container).map { Poly16.p($0) },
-            try decode(Q.self, from: container).map { Poly16.q($0) },
-            try decode(R.self, from: container).map { Poly16.r($0) },
-            try decode(S.self, from: container).map { Poly16.s($0) },
-            try decode(T.self, from: container).map { Poly16.t($0) }]
+            try decode(A.self, from: container).map { Poly20.a($0) },
+            try decode(B.self, from: container).map { Poly20.b($0) },
+            try decode(C.self, from: container).map { Poly20.c($0) },
+            try decode(D.self, from: container).map { Poly20.d($0) },
+            try decode(E.self, from: container).map { Poly20.e($0) },
+            try decode(F.self, from: container).map { Poly20.f($0) },
+            try decode(G.self, from: container).map { Poly20.g($0) },
+            try decode(H.self, from: container).map { Poly20.h($0) },
+            try decode(I.self, from: container).map { Poly20.i($0) },
+            try decode(J.self, from: container).map { Poly20.j($0) },
+            try decode(K.self, from: container).map { Poly20.k($0) },
+            try decode(L.self, from: container).map { Poly20.l($0) },
+            try decode(M.self, from: container).map { Poly20.m($0) },
+            try decode(N.self, from: container).map { Poly20.n($0) },
+            try decode(O.self, from: container).map { Poly20.o($0) },
+            try decode(P.self, from: container).map { Poly20.p($0) },
+            try decode(Q.self, from: container).map { Poly20.q($0) },
+            try decode(R.self, from: container).map { Poly20.r($0) },
+            try decode(S.self, from: container).map { Poly20.s($0) },
+            try decode(T.self, from: container).map { Poly20.t($0) }]
 
-        let maybeVal: Poly16<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T>? = attempts
+        let maybeVal: Poly20<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T>? = attempts
             .lazy
             .compactMap { $0.value }
             .first
