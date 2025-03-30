@@ -1122,7 +1122,7 @@ extension Poly18: CustomStringConvertible {
 // MARK: -- 19 --
 
 public protocol _Poly19: _Poly18 {
-    associatedtype R
+    associatedtype S
 
     /// Get the value if it is of type `S`
     var s: S? { get }
