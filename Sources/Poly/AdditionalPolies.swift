@@ -3844,7 +3844,7 @@ public enum Poly25<A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, T
     case t(T)
     case t21(T21)
     case t22(T22)
-    case t23(T22)
+    case t23(T23)
     case t24(T24)
     case t25(T25)
 
